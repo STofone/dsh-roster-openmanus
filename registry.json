@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/STofone/dsh-agent-roster/main/schema/registry.v1.schema.json",
+  "kind": "dsh-agent-roster-registry/v1",
+  "version": 1,
+  "generatedAt": "2026-10-30T00:00:00.000Z",
+  "generator": "STofone/dsh-roster-openmanus (hand-maintained)",
+  "source": "https://github.com/STofone/dsh-roster-openmanus",
+  "collections": [
+    {
+      "id": "openmanus",
+      "title": "OpenManus 三件套（迁移）",
+      "description": "把 OpenManus（5.8 万星，MIT）的三个代理提示词迁成档案：规划代理、编码代理、浏览器代理，systemPrompt 保留上游原文。",
+      "repo": "github:STofone/dsh-roster-openmanus",
+      "ref": "main",
+      "path": "rosters",
+      "rosters": [
+        "openmanus"
+      ],
+      "tags": [
+        "agent",
+        "browser",
+        "coding",
+        "openmanus"
+      ],
+      "license": "MIT",
+      "maintainers": [
+        "STofone"
+      ],
+      "homepage": "https://github.com/STofone/dsh-roster-openmanus"
+    }
+  ]
+}
